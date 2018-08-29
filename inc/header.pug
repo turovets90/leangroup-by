@@ -1,0 +1,180 @@
+-var main_menu =['Главная','О нас','Сертификаты ','Наша команда ','Новости','Вакансии' ,'Контакты'];
+
+.mobile_navbar
+    .logo_block
+        a.logo_link(href="#")
+            img(src="img/logo.png")
+    .mobile_contacts_block
+        button.btn_tel(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="contacts")
+        .dropdown-menu.mobile_contacts(aria-labelledby="contacts")
+            .d-flex.flex-column.align-items-center
+                .row
+                    .col-12.col-sm-6
+                        .phones_block
+                            ul
+                                li
+                                    span.city Беларусь
+                                li
+                                    a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                li
+                                    a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+
+                    .col-12.col-sm-6
+                        .phones_block
+                            ul
+                                li
+                                    span.city Москва
+                                li
+                                    a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                li
+                                    a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+                    .col-12.col-sm-6
+                        .phones_block
+                            ul
+                                li
+                                    span.city Екатеринбург
+                                li
+                                    a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                li
+                                    a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+                    .col-12.col-sm-6
+                        .phones_block
+                            ul
+                                li
+                                    span.city Европа
+                                li
+                                    a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                li
+                                    a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+                .h_btn_block
+                    .row
+                        .col-12.text-center
+                            a.feedback(href="#" data-toggle="modal") Связаться с нами
+                        .col-12.text-center
+                            a.mail(href="mailto:info@leangroup.by") info@leangroup.by
+
+
+    .mobile_btn_menu
+        .btn_menu
+            button.hamburger
+                span
+
+.mobile_menu
+    .main_menu
+        ul.nav
+            for menu_item,index in main_menu
+                if index == 0
+                    li.active
+                        a(href="" + menu_item + '.html')=menu_item
+                else
+                    li
+                        a(href="" + menu_item + '.html')=menu_item
+
+    .main_nav
+        ul.row
+            li.col-12
+                a.nav_link(href="") Ламинатные трубы
+            li.col-12
+                a.nav_link(href="") Экструзионные тубы
+            li.col-12
+                a.nav_link(href="") Этикетка
+
+
+header.header
+    .container
+        .row
+            .col-6.col-sm-6.col-md-2.col-xl-2
+                .logo_block
+                    a.logo_link(href="#")
+                        img(src="img/logo.png")
+                        span.site_desc у качества нет конкуренции
+            .col-6.col-sm-6.col-md-10.col-xl-10
+                .row.h_row_1
+                    .col-12.col-sm-12.col-md-9.col-xl-9
+                        .main_menu
+                            ul.nav
+                                for menu_item,index in main_menu
+                                    if index == 0
+                                        li.active
+                                            a(href="" + menu_item + '.html')=menu_item
+                                    else
+                                        li
+                                            a(href="" + menu_item + '.html')=menu_item
+                    .col-12.col-sm-12.col-md-3.col-xl-3
+                        .lang_block
+                            ul.lang_nav
+                                li
+                                    a(href="#") EN
+                                li.active
+                                    a(href="") RU
+                .row.h_row_2
+                    .col-12.col-sm-12.col-md-8.col-xl-9
+                        .row
+                            .col-12.col-sm-12.col-md-6.col-xl-3
+                                .phones_block
+                                     ul
+                                         li
+                                            span.city Беларусь
+                                         li
+                                            a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                         li
+                                            a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+
+                            .col-12.col-sm-12.col-md-6.col-xl-3
+                                .phones_block
+                                    ul
+                                        li
+                                            span.city Москва
+                                        li
+                                            a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                        li
+                                            a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+                            .col-12.col-sm-12.col-md-6.col-xl-3
+                                .phones_block
+                                    ul
+                                        li
+                                            span.city Екатеринбург
+                                        li
+                                            a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                        li
+                                            a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+                            .col-12.col-sm-12.col-md-6.col-xl-3
+                                .phones_block
+                                    ul
+                                        li
+                                            span.city Европа
+                                        li
+                                            a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
+                                        li
+                                            a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
+                    .col-12.col-sm-12.col-md-4.col-xl-3.text-right
+                        .h_btn_block
+                            .row
+                                .col-12.text-center
+                                    a.feedback(href="#" data-toggle="modal") Связаться с нами
+                                .col-12.text-center
+                                    a.mail(href="mailto:info@leangroup.by") info@leangroup.by
+
+nav.main_nav.d-none.d-md-block
+    .container
+        ul.row
+            li.col-12.col-sm-6.col-md-4
+                a.nav_link(href="") Ламинатные трубы
+            li.col-12.col-sm-6.col-md-4
+                a.nav_link(href="") Экструзионные тубы
+            li.col-12.col-sm-6.col-md-4
+                a.nav_link(href="") Этикетка
+
+
+
+
+
+
+
+
+
+
+
+
+
+

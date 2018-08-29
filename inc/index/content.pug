@@ -1,0 +1,162 @@
+main
+    section.main_slider
+        -for(var s=0;s<=4;s++)
+            .item(style="background-image:url(img/m_bg.jpg)")
+                .container
+                    .caption
+                        .title Являеемся ведущим производителем #{s}
+                        .sub_title ламинатных и экструзионных туб в СНГ
+
+    section.about
+        .container
+            .row.title_btn_row
+                .col-12.col-sm-12.col-md-6.col-xl-6.title_row
+                    p.section_title О нас
+                .col-12.col-sm-12.col-md-6.col-xl-6.btn_row
+                    a.show_more(href="#") Подробнее о компании
+
+            .content.desc ОО «ЛеанГрупп» успешно работает на рынке упаковки с 1999 года и является ведущим производителем ламинатных и экструзионных туб в СНГ, где завоевала доверие производителей зубной пасты, парфюмерно-косметической и пищевой продукции. Мы дорожим нашими клиентами и для удобства работы с ними в 2012 открыли офис в Москве.
+
+    section.catalog
+        .container
+            p.section_title Продукция
+            .row.category_list
+                -for(var c=1;c<=3;c++)
+                    .col-12.col-sm-12.col-md-6.col-xl-4
+                        article.type_category
+                            .thumbnail(style="background-image:url(img/catalog.jpg)")
+                                .caption
+                                    .c_title Ламинатные тубы
+                                    a.show_more(href="#") Подробнее
+
+    section.preimuschestva
+        .container
+            p.section_title Преимущества
+            .row
+                .col-12.col-sm-6.col-md-6.col-xl-3
+                    .item
+                        span.img
+                            img(src="img/1.png")
+                        .item_title Квалифицированный <br>персонал
+                        .item_desc Каждый этап работы находится под производственным контролем высококвалифицированных экспертов
+                .col-12.col-sm-6.col-md-6.col-xl-3
+                    .item
+                        span.img
+                            img(src="img/2.png")
+                        .item_title Надёжность и высокое <br>качество продукции
+                        .item_desc Система менеджмента качества компании соответствует требованиям ISO 9001-2009, обеспечивая надежность нашей продукции и её высокое качество.
+                .col-12.col-sm-6.col-md-6.col-xl-3
+                    .item
+                        span.img
+                            img(src="img/3.png")
+                        .item_title Быстрое исполнение заказа
+                        .item_desc Производственные мощности, обученный и высококвалифицированный персонал обеспечивают быструю реакцию на любые запросы потребителей.
+
+                .col-12.col-sm-6.col-md-6.col-xl-3
+                    .item
+                        span.img
+                            img(src="img/4.png")
+                        .item_title Опыт работы
+                        .item_desc Более 10 лет мы делаем упор на качество, производительность, инновации и удовлетворение запросов потребителей.
+
+    section.sertificates
+        .container
+            .row.title_btn_row
+                .col-12.col-sm-12.col-md-6.col-xl-6.title_row
+                    p.section_title Сертификаты
+                .col-12.col-sm-12.col-md-6.col-xl-6.btn_row
+                    a.show_more(href="#") Все сертификаты
+
+            .row.sertificates_list.slick_slider
+                -for(var sl=1;sl<=6;sl++)
+                    .col-12.col-sm-6.col-md-4.col-xl-3.slick_item
+                        .item
+                            a(href="img/s_1.png" data-fancybox="sertificates")
+                                img(src="img/s_1.png")
+
+    section.our_team
+        .container
+            .row.title_btn_row
+                .col-12.col-sm-12.col-md-6.col-xl-6.title_row
+                    p.section_title Наша команда
+                .col-12.col-sm-12.col-md-6.col-xl-6.btn_row
+                    a.show_more(href="#") Смотреть всех сотрудников
+
+            .row.our_team_list.slick_slider
+                -for(var sl=1;sl<=6;sl++)
+                    .col-12.col-sm-6.col-md-4.col-xl-3.slick_item
+                        article.type_team
+                            a.thumbnail(href="#" style="background-image:url(img/team.png)")
+                            div
+                                .post_title Новицкий Алексей
+                                p Специалист отдела продаж
+                                ul.contact_list
+                                    li.phone +7 (495) 280-73-44 <br>+7 (495) 280-73-44 (ф)
+                                    li.mail info@leangroup.by
+
+            .row
+                .col-12
+                    a.show_more(href="") Присоединиться к команде
+
+    section.news
+        .container
+            .row.title_btn_row
+                .col-12.col-sm-12.col-md-6.col-xl-6.title_row
+                    p.section_title Новости
+                .col-12.col-sm-12.col-md-6.col-xl-6.btn_row
+                    a.show_more(href="#") все новости
+
+            .row.news_list
+                -for(var n=1;n<=3;n++)
+                    .col-12.col-sm-12.col-md-6.col-xl-4
+                        article.type_news
+                            .date 29.08.2018
+                            a.news_title(href="#") Проведение детского конкурса "На крыльях таланта"
+                            .news_desc 1 июня в Международный день защиты детей состоялся творческий конкурс «На крыльях таланта».
+    section.main_contacts
+        .container
+            p.section_title Контакты
+            .row
+                .col-12.col-sm-12.col-md-6.col-xl-3
+                    .contact_group
+                        .c_title Беларусь
+                        ul
+                            li.phone +7 (495) 280-73-44 <br>+7 (495) 280-73-44 (ф)
+                            li.mail info@leangroup.by
+                            li.location 220075, Республика Беларусь, Минск, ул. Промышленная, 25 А
+                .col-12.col-sm-12.col-md-6.col-xl-3
+                    .contact_group
+                        .c_title Москва
+                        ul
+                            li.phone +7 (495) 280-73-44 <br>+7 (495) 280-73-44 (ф)
+                            li.mail info@leangroup.by
+                            li.location 220075, Республика Беларусь, Минск, ул. Промышленная, 25 А
+                .col-12.col-sm-12.col-md-6.col-xl-3
+                    .contact_group
+                        .c_title Екатеринбург
+                        ul
+                            li.phone +7 (495) 280-73-44 <br>+7 (495) 280-73-44 (ф)
+                            li.mail info@leangroup.by
+                            li.location 220075, Республика Беларусь, Минск, ул. Промышленная, 25 А
+                .col-12.col-sm-12.col-md-6.col-xl-3
+                    .contact_group
+                        .c_title Европа
+                        ul
+                            li.phone +7 (495) 280-73-44 <br>+7 (495) 280-73-44 (ф)
+                            li.mail info@leangroup.by
+                            li.location 220075, Республика Беларусь, Минск, ул. Промышленная, 25 А
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
