@@ -64,8 +64,8 @@
           <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="664">
-                  <caret line="1516" column="5" lean-forward="true" selection-start-line="1516" selection-start-column="5" selection-end-line="1516" selection-end-column="5" />
+                <state relative-caret-position="272">
+                  <caret line="1748" column="30" selection-start-line="1748" selection-start-column="30" selection-end-line="1748" selection-end-column="30" />
                   <folding>
                     <element signature="e#74005#74311#2" expanded="true" />
                     <element signature="e#74556#74862#2" expanded="true" />
@@ -223,23 +223,22 @@
       <updated>1535522654893</updated>
       <workItem from="1535522656272" duration="778000" />
       <workItem from="1535528887971" duration="22000000" />
-      <workItem from="1535614394636" duration="4080000" />
+      <workItem from="1535614394636" duration="4434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26858000" />
+    <option name="totallyTimeSpent" value="27212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="108" width="1594" height="897" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3254902" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32979977" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32941177" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.15710561" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -391,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="1516" column="5" lean-forward="true" selection-start-line="1516" selection-start-column="5" selection-end-line="1516" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="1748" column="30" selection-start-line="1748" selection-start-column="30" selection-end-line="1748" selection-end-column="30" />
           <folding>
             <element signature="e#74005#74311#2" expanded="true" />
             <element signature="e#74556#74862#2" expanded="true" />
