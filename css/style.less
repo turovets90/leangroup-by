@@ -391,7 +391,19 @@ h2, .h2{
 .container{
   max-width: 1330px;
 }
+.content{
+  *{
+    color: #333;
+  }
+  a{
 
+    text-decoration: underline;
+    &:hover{
+      color: @orange;
+      text-decoration: none;
+    }
+  }
+}
 body{
   color: #333333;
   font:16px @font-regular;
@@ -2301,16 +2313,7 @@ section.about, section.catalog{
 }
 
 
-.content{
-  a{
-    color: #333;
-    text-decoration: underline;
-    &:hover{
-      color: @orange;
-      text-decoration: none;
-    }
-  }
-}
+
 
 
 .map{
