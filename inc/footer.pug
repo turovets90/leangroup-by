@@ -36,7 +36,7 @@ footer
                                 li
                                     a(href="" + menu_item1 + '.html')=menu_item1
             .col-12.col-sm-12.col-md-12.col-xl-4.right_col
-                a.feedback(href="#" data-toggle="modal") Связаться с нами
+                a.feedback(href="#feedback" data-toggle="modal") Связаться с нами
                 .f_social_block
                     p.text-center Мы в соц. сетях
                     ul.f_solial
@@ -72,4 +72,26 @@ section.copyright
                     a(href="#") Разработка сайта - Seologic.by
 
 a.scrolltop(href="#body")
+
+
+
+.modal.fade#feedback(role="dialog" aria-labelledby="modalLabel" aria-hidden="true")
+    .modal-dialog
+        .modal-content
+            .modal-header
+                p.title.h2 Обратная связь
+                button.close(data-dismiss="modal" aria-label="Close")
+            .modal-body
+                form
+                    .row
+                        .col-12.field
+                            input.form-control(type="text" placeholder="Ваше имя")
+                        .col-12.field
+                            input.form-control(type="text" placeholder="Ваш email")
+                        .col-12.field
+                            input.form-control(type="text" placeholder="Ваш телефон")
+                        .col-12.field
+                            textarea.form-control(placeholder="Сообщение")
+                        .col-12.btn_block
+                            button.btn_default(type="submit") Отправить
 

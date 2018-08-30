@@ -1,0 +1,30 @@
+main
+    section.section_content
+        .container
+            ul.breadcrumb
+                li.breadcrumb-item
+                    a(href="#") Главная
+                li.breadcrumb-item
+                    a(href="#content") #{page.title}
+            h1 #{page.title}
+            .content
+                .row.pt-2.mt-3.mt-md-4.mt-xl-5
+                    -for(var sl=1;sl<=6;sl++)
+                        .col-12.col-sm-12.col-md-4.col-xl-4
+                            article.type_news
+                                a.thumbnail_link(href="#")
+                                    span.thumbnail(style="background-image:url(img/m_bg.jpg)")
+                                .type_news_body
+                                    .date 30.08.2015
+                                    a.post_title(href="#") Проведение детского конкурса "На крыльях таланта"
+
+                .row
+                    .col-12.text-center
+                        button.load_more Загрузить еще
+
+
+
+
+
+
+
