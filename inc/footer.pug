@@ -1,24 +1,20 @@
--var f_catalog_menu =['Шампанское','Коньяк','Водка','Виски','Ликеры','Джины','Ром'];
--var f_catalog_menu2 =['Текила','Вина','Вода питьевая','Безалкогольные напитки'];
--var info_menu = ['Информация','Новости','Корпоративным клиентам','Мероприятия','Блог','О нас','Контакты'];
+-var f_catalog_menu =['Главная','О нас','Сертификаты','Наша команда'];
+-var f_catalog_menu2 =['Новости','Вакансии','Контакты'];
+-var info_menu = ['Ламинатные тубы','Экструзионные тубы','Этикетка'];
 footer
     .container
         .row
-            .col-12.col-sm-12.col-md-12.col-xl-3.left_col
-                .row
-                    .col-12.col-sm-12.col-md-6.col-xl-12
-                        .f_logo_block
-                            a(href="#")
-                                img(src="img/logo.png")
-                    .col-12.col-sm-12.col-md-6.col-xl-12
-                        .f_logo_2
-                            img(src="img/logo2.png")
-            .col-12.col-sm-12.col-md-8.col-xl-6.center_col
+            .col-12.col-sm-12.col-md-4.col-xl-3.left_col
+                .logo_block
+                    a.logo_link(href="#")
+                        img(src="img/f_logo.png")
+                        span.site_desc у качества нет конкуренции
+            .col-12.col-sm-12.col-md-8.col-xl-5.center_col
                 .row
                     .col-12.col-sm-12.col-md-8.col-xl-8
-                        .f_title Каталог
+                        .f_title Разделы
                         .row
-                            .col-12.col-sm-12.col-md-5.col-xl-5
+                            .col-12.col-sm-12.col-md-6.col-xl-6
                                 ul.f_nav
                                     for menu_item,index in f_catalog_menu
                                         if index == 0
@@ -27,29 +23,42 @@ footer
                                         else
                                             li
                                                 a(href="" + menu_item + '.html')=menu_item
-                            .col-12.col-sm-12.col-md-7.col-xl-7
+                            .col-12.col-sm-12.col-md-6.col-xl-6
                                 ul.f_nav
                                     for menu_item2,index in f_catalog_menu2
                                         li
                                             a(href="" + menu_item2 + '.html')=menu_item2
 
-                    .col-12.col-sm-12.col-md-4.col-xl-4
-                        .f_title Информация
+                    .col-12.col-sm-12.col-md-4.col-xl-4.pr-0
+                        .f_title Продукция
                         ul.f_nav
                             for menu_item1,index in info_menu
                                 li
                                     a(href="" + menu_item1 + '.html')=menu_item1
-            .col-12.col-sm-12.col-md-4.col-xl-3.right_col
-                .f_title Контакты
-                ul.f_contacts
-                    li
-                        span.location РБ, г.Минск, Партизанский проспект, д.4, комн.2.
+            .col-12.col-sm-12.col-md-12.col-xl-4.right_col
+                a.feedback(href="#" data-toggle="modal") Связаться с нами
+                .f_social_block
+                    p.text-center Мы в соц. сетях
+                    ul.f_solial
+                        li
+                            a.fb(href="")
+                        li
+                            a.twitter(href="")
+                        li
+                            a.google(href="")
+                        li
+                            a.vk(href="")
+                        li
+                            a.telegram(href="")
+                        li
+                            a.linkedin(href="")
+                        li
+                            a.t(href="")
+                        li
+                            a.youtube(href="")
+                        li
+                            a.ok(href="")
 
-                    li
-                        span.phone +375 (17) 298-40-49/50/51
-                            span Контактные телефоны
-
-    div.text-center «Чрезмерное употребление алкогольной продукции вредит здоровью»
 
 
 
@@ -57,10 +66,10 @@ section.copyright
     .container
         .row
             .col-12.col-sm-12.col-md-6.col-xl-6
-                p © 2018 Все права защищены "idrink.by"
+                p Copyright © 2018 Leongroup
             .col-12.col-sm-12.col-md-6.col-xl-6
-                p.seologic Разработка сайта
-                    a(href="#") Seologic.by
+                p.seologic
+                    a(href="#") Разработка сайта - Seologic.by
 
 a.scrolltop(href="#body")
 
