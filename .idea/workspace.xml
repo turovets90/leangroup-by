@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13f254ac-a6c6-4732-b7d8-dab88f2396e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/inc/category/content.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/team/content.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Наша команда.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Экструзионные тубы.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/inc/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Главная.html" beforeDir="false" afterPath="$PROJECT_DIR$/Главная.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Главная.pug" beforeDir="false" afterPath="$PROJECT_DIR$/Главная.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,38 +25,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.6316631">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Главная.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Главная.pug">
+          <file leaf-file-name="Наша команда.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Наша команда.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+                <state relative-caret-position="140">
+                  <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/inc/header.pug">
+          <file leaf-file-name="content.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/inc/team/content.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="153" column="93" selection-start-line="153" selection-start-column="35" selection-end-line="153" selection-end-column="93" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="content.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/inc/index/content.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="140" column="24" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.pug" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/inc/footer.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+                <state relative-caret-position="800">
+                  <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -64,9 +50,10 @@
           <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="1748" column="30" selection-start-line="1748" selection-start-column="30" selection-end-line="1748" selection-end-column="30" />
+                <state relative-caret-position="461">
+                  <caret line="1068" column="13" selection-start-line="1068" selection-start-column="13" selection-end-line="1068" selection-end-column="13" />
                   <folding>
+                    <element signature="e#41374#41961#0" />
                     <element signature="e#74005#74311#2" expanded="true" />
                     <element signature="e#74556#74862#2" expanded="true" />
                     <element signature="e#74558#75309#2" expanded="true" />
@@ -85,6 +72,11 @@
                     <element signature="e#80875#81526#2" expanded="true" />
                     <element signature="e#76277#77181#2" expanded="true" />
                     <element signature="e#82037#82941#2" expanded="true" />
+                    <element signature="e#90887#90895#0" />
+                    <element signature="e#91402#94531#2" expanded="true" />
+                    <element signature="e#91275#91620#2" expanded="true" />
+                    <element signature="e#91341#91682#2" expanded="true" />
+                    <element signature="e#96173#96413#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -93,8 +85,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1520">
-                  <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+                <state relative-caret-position="-1047">
+                  <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -103,6 +95,13 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>feedback</find>
@@ -110,6 +109,9 @@
       <find>.feedback</find>
       <find>city</find>
       <find>.caption</find>
+      <find>.section_title</find>
+      <find>section_content</find>
+      <find>h1</find>
     </findStrings>
     <replaceStrings>
       <replace>../fonts/HelveticaNeueCyr</replace>
@@ -121,12 +123,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/inc/header.pug" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/inc/index/content.pug" />
         <option value="$PROJECT_DIR$/Главная.pug" />
         <option value="$PROJECT_DIR$/inc/footer.pug" />
+        <option value="$PROJECT_DIR$/inc/header.pug" />
+        <option value="$PROJECT_DIR$/Экструзионные тубы.pug" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/inc/category/content.pug" />
+        <option value="$PROJECT_DIR$/Наша команда.pug" />
         <option value="$PROJECT_DIR$/css/style.less" />
+        <option value="$PROJECT_DIR$/inc/team/content.pug" />
       </list>
     </option>
   </component>
@@ -139,7 +145,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="79" />
     <option name="y" value="108" />
     <option name="width" value="1594" />
@@ -172,12 +178,34 @@
               <item name="leangroup-by" type="b2602c69:ProjectViewProjectNode" />
               <item name="leangroup-by" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leangroup-by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leangroup-by" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leangroup-by" type="b2602c69:ProjectViewProjectNode" />
               <item name="leangroup-by" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="team" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leangroup-by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leangroup-by" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leangroup-by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leangroup-by" type="462c0819:PsiDirectoryNode" />
+              <item name="Наша команда.pug" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="leangroup-by" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leangroup-by" type="462c0819:PsiDirectoryNode" />
+              <item name="Экструзионные тубы.pug" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -203,10 +231,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Наша команда.html">
+    <configuration name="Экструзионные тубы.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/leangroup-by/Экструзионные тубы.html" />
+    <configuration name="Наша команда.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/leangroup-by/Наша команда.html" />
     <configuration name="Главная.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/leangroup-by/Главная.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.Главная.html" />
+      <item itemvalue="JavaScript Debug.Экструзионные тубы.html" />
+      <item itemvalue="JavaScript Debug.Наша команда.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Наша команда.html" />
+        <item itemvalue="JavaScript Debug.Экструзионные тубы.html" />
         <item itemvalue="JavaScript Debug.Главная.html" />
       </list>
     </recent_temporary>
@@ -223,29 +260,30 @@
       <updated>1535522654893</updated>
       <workItem from="1535522656272" duration="778000" />
       <workItem from="1535528887971" duration="22000000" />
-      <workItem from="1535614394636" duration="4434000" />
+      <workItem from="1535614394636" duration="12032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27212000" />
+    <option name="totallyTimeSpent" value="34810000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="108" width="1594" height="897" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3254902" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32467532" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15710561" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15671642" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -288,6 +326,7 @@
         <state relative-caret-position="28060">
           <caret line="1398" column="25" selection-start-line="1398" selection-start-column="25" selection-end-line="1398" selection-end-column="25" />
           <folding>
+            <element signature="e#41374#41961#0" />
             <element signature="e#74005#74311#2" expanded="true" />
             <element signature="e#74556#74862#2" expanded="true" />
             <element signature="e#74558#75309#2" expanded="true" />
@@ -306,6 +345,11 @@
             <element signature="e#80875#81526#2" expanded="true" />
             <element signature="e#76277#77181#2" expanded="true" />
             <element signature="e#82037#82941#2" expanded="true" />
+            <element signature="e#90887#90895#0" />
+            <element signature="e#91402#94531#2" expanded="true" />
+            <element signature="e#91275#91620#2" expanded="true" />
+            <element signature="e#91341#91682#2" expanded="true" />
+            <element signature="e#96173#96413#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -324,6 +368,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
+            <element signature="e#41374#41961#0" />
             <element signature="e#74005#74311#2" expanded="true" />
             <element signature="e#74556#74862#2" expanded="true" />
             <element signature="e#74558#75309#2" expanded="true" />
@@ -342,14 +387,12 @@
             <element signature="e#80875#81526#2" expanded="true" />
             <element signature="e#76277#77181#2" expanded="true" />
             <element signature="e#82037#82941#2" expanded="true" />
+            <element signature="e#90887#90895#0" />
+            <element signature="e#91402#94531#2" expanded="true" />
+            <element signature="e#91275#91620#2" expanded="true" />
+            <element signature="e#91341#91682#2" expanded="true" />
+            <element signature="e#96173#96413#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -360,27 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/index/content.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="140" column="24" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Главная.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="153" column="93" selection-start-line="153" selection-start-column="35" selection-end-line="153" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -388,11 +410,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Экструзионные тубы.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Экструзионные тубы.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Главная.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/category/content.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="39" lean-forward="true" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Наша команда.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Наша команда.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/index/content.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="98" column="65" lean-forward="true" selection-start-line="76" selection-start-column="2" selection-end-line="98" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="1748" column="30" selection-start-line="1748" selection-start-column="30" selection-end-line="1748" selection-end-column="30" />
+        <state relative-caret-position="461">
+          <caret line="1068" column="13" selection-start-line="1068" selection-start-column="13" selection-end-line="1068" selection-end-column="13" />
           <folding>
+            <element signature="e#41374#41961#0" />
             <element signature="e#74005#74311#2" expanded="true" />
             <element signature="e#74556#74862#2" expanded="true" />
             <element signature="e#74558#75309#2" expanded="true" />
@@ -411,7 +497,19 @@
             <element signature="e#80875#81526#2" expanded="true" />
             <element signature="e#76277#77181#2" expanded="true" />
             <element signature="e#82037#82941#2" expanded="true" />
+            <element signature="e#90887#90895#0" />
+            <element signature="e#91402#94531#2" expanded="true" />
+            <element signature="e#91275#91620#2" expanded="true" />
+            <element signature="e#91341#91682#2" expanded="true" />
+            <element signature="e#96173#96413#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/team/content.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
         </state>
       </provider>
     </entry>

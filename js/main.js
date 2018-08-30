@@ -84,6 +84,70 @@ $(document).ready(function(){
 
 
 
+    $('.product_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        //fade: true,
+        centerPadding: '16%',
+        centerMode: true,
+        focusOnSelect: true,
+        asNavFor: '.product_slider_nav',
+        responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    centerPadding: '10%',
+                }
+            },
+            {
+                breakpoint: 991,
+                settings: {
+                    centerPadding: '10%',
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    centerPadding: '15%',
+                }
+            }
+        ]
+    });
+    $('.product_slider_nav').slick({
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        asNavFor: '.product_slider',
+        dots: false,
+        arrows: true,
+        focusOnSelect: true,
+        responsive: [
+
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    });
+
+
+
+
+
 
     /*$('.mobile_btn').click(function () {
         $(this).toggleClass('active');

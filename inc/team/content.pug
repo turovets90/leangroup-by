@@ -1,0 +1,48 @@
+main
+    section.section_content
+        .container
+            ul.breadcrumb
+                li.breadcrumb-item
+                    a(href="#") Главная
+                li.breadcrumb-item
+                    a(href="#content") #{page.title}
+            h1 #{page.title}
+            .content
+                p ООО «ЛеанГрупп» успешно работает на рынке упаковки с 1999 года и основа репутации нашей компании в сфере производства туб – это коллектив мастеров своего дела, которые постоянно развиваются профессионально, а также повышают свою квалификацию и находятся в тренде последних событий и новшеств в сфере производста ламинатных и экструзионных туб, а также этикетки.
+                p Мы стремимся к повышению качества и конкурентоспособности выпускаемой продукции за счет постоянного совершенствования технологического процесса, использования сырья высокого качества, высокотехнологичного оборудования и изучения требований рынка пластиковой упаковки.
+                .our_team
+                    .team_group
+                        h2 Служба маркетинга
+                        .row.our_team_list
+                            -for(var sl=1;sl<=4;sl++)
+                                .col-12.col-sm-6.col-md-4.col-xl-3.slick_item
+                                    article.type_team
+                                        a.thumbnail(href="#" style="background-image:url(img/team.png)")
+                                        div
+                                            .post_title Новицкий Алексей
+                                            p Специалист отдела продаж
+                                            ul.contact_list
+                                                li.phone +7 (495) 280-73-44 <br>+7 (495) 280-73-44 (ф)
+                                                li.mail info@leangroup.by
+                    .team_group
+                        h2 Отдел сбыта
+                        .row.our_team_list
+                            -for(var sl=1;sl<=8;sl++)
+                                .col-12.col-sm-6.col-md-4.col-xl-3.slick_item
+                                    article.type_team
+                                        a.thumbnail(href="#" style="background-image:url(img/team.png)")
+                                        div
+                                            .post_title Новицкий Алексей
+                                            p Специалист отдела продаж
+                                            ul.contact_list
+                                                li.phone +7 (495) 280-73-44 <br>+7 (495) 280-73-44 (ф)
+                                                li.mail info@leangroup.by
+
+                    .row
+                        .col-12
+                            a.show_more(href="#") Присоединиться к команде
+
+
+
+
+
