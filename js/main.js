@@ -164,6 +164,23 @@ $(document).ready(function(){
 
 
 
+    if($(window).innerWidth() > 768){
+        var header_height = $('.header').height();
+        $('.header').next().css({'margin-top': header_height+'px'});
+        var header_height_1 = $('header').height();
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > header_height_1) {
+                $('.header').addClass('fixed');
+            } else {
+                $('.header').removeClass('fixed');
+            }
+        });
+    }
+
+
+
+
+
 
 });
 
