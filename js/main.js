@@ -150,9 +150,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
-            $('.scrolltop').fadeIn();
+            $('.scrolltop,.scrollbottom').fadeIn();
         } else {
-            $('.scrolltop').fadeOut();
+            $('.scrolltop, .scrollbottom').fadeOut();
         }
     });
 
@@ -161,10 +161,15 @@ $(document).ready(function(){
         return false;
     });
 
+    $('.scrollbottom').click(function(){
+        $("html, body").animate({scrollTop:$(document).height()}, 600);
+        return false;
+    });
 
 
 
-    if($(window).innerWidth() > 768){
+
+    if($(window).innerWidth() >= 768){
         var header_height = $('.header').height();
         $('.header').next().css({'margin-top': header_height+'px'});
         var header_height_1 = $('header').height();

@@ -83,12 +83,12 @@
     header
         .container
             .row
-                .col-6.col-sm-6.col-md-2.col-xl-2.col_6_fix
+                .col-6.col-sm-6.col-md-2.col-xl-2
                     .logo_block
                         a.logo_link(href="#")
                             img(src="img/logo.png")
                             span.site_desc у качества нет конкуренции
-                .col-6.col-sm-6.col-md-10.col-xl-10.col_6_fix
+                .col-6.col-sm-6.col-md-10.col-xl-10
                     .row.h_row_1
                         .col-12.col-sm-12.col-md-9.col-xl-9
                             .main_menu
@@ -147,7 +147,7 @@
                                                 a(href="tel:+375 (17) 345-53-77") <strong>+375 (17) 345-53-77</strong>
                                             li
                                                 a(href="tel:+375 (17) 345-53-78") <strong>+375 (17) 345-53-78</strong> (ф)
-                        .col-12.col-sm-12.col-md-4.col-xl-3.text-right.col_12_fix
+                        .col-12.col-sm-12.col-md-4.col-xl-3.text-right
                             .h_btn_block
                                 .row
                                     .col-12.text-center
@@ -157,13 +157,23 @@
 
     nav.main_nav.d-none.d-md-block
         .container
-            ul.row
-                li.col-12.col-sm-6.col-md-4
-                    a.nav_link(href="") Ламинатные трубы
-                li.col-12.col-sm-6.col-md-4
-                    a.nav_link.active(href="") Экструзионные тубы
-                li.col-12.col-sm-6.col-md-4
-                    a.nav_link(href="") Этикетка
+            .row
+                .col-2.col_3_fix
+                    .logo_block.mt-0
+                        a.logo_link(href="#")
+                            img(src="img/logo.png")
+                .col-12.col_6_fix
+                    ul.row
+                        li.col-12.col-sm-6.col-md-4
+                            a.nav_link(href="") Ламинатные трубы
+                        li.col-12.col-sm-6.col-md-4
+                            a.nav_link.active(href="") Экструзионные тубы
+                        li.col-12.col-sm-6.col-md-4
+                            a.nav_link(href="") Этикетка
+                .col-3.col_3_fix
+                    .h_btn_block
+                        a.feedback(href="#feedback" data-toggle="modal") Связаться с нами
+
 
 
 
